@@ -1,13 +1,13 @@
 type Note = {
-  letter: string,
-  acc: string,
-  pc: string,
-  step: number,
-  alt: number,
-  chroma: number,
-  oct: ?number,
-  midi: ?number,
-  freq: ?number,
+  letter : string,
+  acc    : string,
+  pc     : string,
+  step   : number,
+  alt    : number,
+  chroma : number,
+  oct    : ?number,
+  midi   : ?number,
+  freq   : ?number,
 };
 
 declare module 'note-parser' {
